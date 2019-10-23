@@ -5,27 +5,33 @@ function calculate(){
         document.getElementById('pai').value = pi(num)
     }
 }
+
+
 function factorial(n){
     let sum = 1
     for(let i=1;i<=n;++i){
-        sum*i
+       sum*= i
     }
     return sum
 }
+
+
 function oddFactoria(n){
     let sum = 1
-    for (let i=1;i<=n;++i){
+    for(let i=1;i<=n;++i){
         sum*=((2*i)+1)
     }
     return sum
 }
-funtion pi(num){
+
+
+function pi(num){
     let sum = 0
     for(let i=0;i<=num;++i){
         let dividend = factorial(i)
         let divisor = oddFactoria(i)
-        sum +=(dividend/divisor)
+        sum += (dividend/divisor)
     }
-    return sum*2
+    return sum* 2
 }
 calculate()
