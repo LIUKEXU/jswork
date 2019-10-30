@@ -8,7 +8,7 @@ function sort(method){
         //调用bubbleSort()冒泡排序函数获取排序结果，
         logs = bubbleSort(origin)
     }else if(method=='insert'){
-        //调用insertSort()插入排序函数获取排序结果,
+        //调用insertSort()插入排序函数获取排序结果,//////
         logs = insertSort(origin)
     }
     //获取显示冒泡排序的div
