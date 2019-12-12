@@ -1,4 +1,3 @@
-  
 ShopCart('cart', [{
     name: 'web前端开发中级（上册）',
     price:69.0,
